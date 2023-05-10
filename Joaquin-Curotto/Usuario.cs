@@ -9,14 +9,14 @@ namespace Joaquin_Curotto
     internal class Usuario
     {
         private int id;
-        private string nombre;
-        private string apellido;
-        private string nombreUsuario;
-        private string contrasena;
-        private string mail;
+        private String nombre;
+        private String apellido;
+        private String nombreUsuario;
+        private String contrasena;
+        private String mail;
 
         // Constructor
-        public Usuario(int id, string nombre, string apellido, string nombreUsuario, string contrasena, string mail)
+        public Usuario(int id, String nombre, String apellido, String nombreUsuario, String contrasena, String mail)
         {
             this.id = id;
             this.nombre = nombre;
@@ -37,52 +37,52 @@ namespace Joaquin_Curotto
             this.id = id;
         }
 
-        public string GetNombre()
+        public String GetNombre()
         {
             return this.nombre;
         }
 
-        public void SetNombre(string nombre)
+        public void SetNombre(String nombre)
         {
             this.nombre = nombre;
         }
 
-        public string GetApellido()
+        public String GetApellido()
         {
             return this.apellido;
         }
 
-        public void SetApellido(string apellido)
+        public void SetApellido(String apellido)
         {
             this.apellido = apellido;
         }
 
-        public string GetNombreUsuario()
+        public String GetNombreUsuario()
         {
             return this.nombreUsuario;
         }
 
-        public void SetNombreUsuario(string nombreUsuario)
+        public void SetNombreUsuario(String nombreUsuario)
         {
             this.nombreUsuario = nombreUsuario;
         }
 
-        public string GetContrasena()
+        public String GetContrasena()
         {
             return this.contrasena;
         }
 
-        public void SetContrasena(string contrasena)
+        public void SetContrasena(String contrasena)
         {
             this.contrasena = contrasena;
         }
 
-        public string GetMail()
+        public String GetMail()
         {
             return this.mail;
         }
 
-        public void SetMail(string mail)
+        public void SetMail(String mail)
         {
             this.mail = mail;
         }

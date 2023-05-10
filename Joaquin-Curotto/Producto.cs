@@ -26,7 +26,7 @@ namespace Joaquin_Curotto
             this.idUsuario = idUsuario;
         }
 
-        // Métodos públicos para acceder y modificar los atributos privados
+        // GETTERS & SETTERS
         public int GetId()
         {
             return this.id;
